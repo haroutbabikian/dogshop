@@ -8,6 +8,8 @@ import dog6 from '../../assets/poodle.jpg';
 import dog7 from '../../assets/terrier.jpg';
 import dog8 from '../../assets/german-shepherd.jpg';
 import dog9 from '../../assets/chowchow.jpg';
+import Navbar from '../Home/Navbar';
+import Footer from '../Home/Footer';
 
 function PetsPage() {
   // Sample dogs data
@@ -24,6 +26,8 @@ function PetsPage() {
   ];
 
   return (
+    <>
+    <Navbar/>
     <div className="bg-cream p-10 min-h-screen">
       <h1 className="text-4xl text-forest-green font-bold mb-8">Meet Our Lovely Dogs</h1>
       <div className="grid grid-cols-3 gap-6">
@@ -36,6 +40,8 @@ function PetsPage() {
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 
