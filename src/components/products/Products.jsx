@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
+import Navbar from '../Home/Navbar'
+import Footer from '../Home/Footer'
 import AllProductsPage from './AllProductsPage'
 
 const Products = () => {

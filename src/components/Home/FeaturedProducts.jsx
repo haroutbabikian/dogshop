@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from '../assets/chewball.jpg';
-import img2 from '../assets/rubber-chew-bone.webp';
-import img3 from '../assets/squeeky-pony.jpg';
+import img1 from '../../assets/chewball.jpg';
+import img2 from '../../assets/rubber-chew-bone.webp';
+import img3 from '../../assets/squeeky-pony.jpg';
 
 function FeaturedProducts() {
   // Sample products data

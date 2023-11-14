@@ -1,10 +1,14 @@
 import React from 'react';
+import img1 from '../../assets/chewball.jpg';
+import img2 from '../../assets/rubber-chew-bone.webp';
+import img3 from '../../assets/squeeky-pony.jpg';
 
 function AllProductsPage() {
   // Sample products data
   const products = [
-    { name: 'Chewy Toy', image: 'chewy-toy.jpg', description: 'Durable and fun!' },
-    // Add more products here...
+    { name: 'Chewy Toy', image: img1, description: 'Durable and fun!' },
+    { name: 'Rubber Chew Bone', image: img2, description: 'Great for teething puppies!' },
+    { name: 'Squeeky Pony', image: img3, description: 'Your dog will love it!' },
   ];
 
   return (
@@ -24,7 +28,3 @@ function AllProductsPage() {
 }
 
 export default AllProductsPage;
-
-// Additional CSS (TailwindCSS)
-// .bg-cream { background-color: #f5f5dc; }
-// .text-forest-green { color: #228b22; }
