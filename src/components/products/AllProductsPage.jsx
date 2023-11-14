@@ -2,6 +2,9 @@ import React from 'react';
 import img1 from '../../assets/chewball.jpg';
 import img2 from '../../assets/rubber-chew-bone.webp';
 import img3 from '../../assets/squeeky-pony.jpg';
+import img4 from '../../assets/toy-bundle.webp';
+import img5 from '../../assets/multicolor-toy.jpg';
+import img6 from '../../assets/dog-puzzle.jpg';
 
 function AllProductsPage() {
   // Sample products data
@@ -9,6 +12,9 @@ function AllProductsPage() {
     { name: 'Chewy Toy', image: img1, description: 'Durable and fun!' },
     { name: 'Rubber Chew Bone', image: img2, description: 'Great for teething puppies!' },
     { name: 'Squeeky Pony', image: img3, description: 'Your dog will love it!' },
+    { name: 'Toy Bundle', image: img4, description: 'A bundle of fun!' },
+    { name: 'Multicolor Toy', image: img5, description: 'A bundle of fun!' },
+    { name: 'Dog Puzzle', image: img6, description: 'A bundle of fun!' },
   ];
 
   return (

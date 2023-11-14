@@ -1,8 +1,12 @@
 import React from 'react';
 import teamPhoto from '../../assets/team-photo.jpg'; // Import a team photo or relevant image
+import Navbar from '../Home/Navbar';
+import Footer from '../Home/Footer';
 
 function AboutUsPage() {
   return (
+    <>
+    <Navbar/>
     <div className="bg-light-blue p-10 min-h-screen">
       <div className="text-center mb-10">
         <h1 className="text-4xl font-bold text-dark-blue mb-3">About Us</h1>
@@ -33,6 +37,8 @@ function AboutUsPage() {
         </p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 
